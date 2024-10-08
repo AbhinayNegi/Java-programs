@@ -14,7 +14,7 @@ public class ReverseWord {
             reversedString.append(" ");
         }
 
-        System.out.println(reversedString);
+        System.out.println(reversedString.toString().trim());
     }
 
 }
