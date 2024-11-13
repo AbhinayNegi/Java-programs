@@ -1,12 +1,14 @@
 package list;
 
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class LinkedListQueue {
 
     public static void main(String[] args){
         Queue<String> queue = new LinkedList<>();
+        LinkedList<String> queue2 = new LinkedList<>();
 
         queue.add("A");
         queue.add("B");

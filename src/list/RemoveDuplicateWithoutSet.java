@@ -10,7 +10,7 @@ public class RemoveDuplicateWithoutSet {
 
         for(int i = 0; i < items.size(); i++)  {
             for(int j = i + 1; j < items.size(); j++) {
-                if(items.get(i).intValue() == items.get(j).intValue()){
+                while(items.get(i).intValue() == items.get(j).intValue()){
                     items.remove(j);
                 }
             }
